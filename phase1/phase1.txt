@@ -1,0 +1,24 @@
+INFO2950 Phase 1 for Luke Ellis 
+
+Link to github: https://github.com/ellisluke/2950FinalProject
+
+Ideas for datasets to use: 
+- List of all Billboard Hot 100 songs for every week (or maybe some other Billboard chart)
+    * There are already databases with this data available
+    * This data could also be scraped from the billboard website
+- Collections of song spectograms
+    * I've found one database offering this for many billboard songs (though not all)
+    * There might be a python library that can create such a spectograms, but I'm not
+    sure that's computationally viable.
+- Spotify's public dataset of song metadata
+    * Spotify has a couple large databases available for free public use, just contains 
+    metadata (album, artist, title, year, others)
+- Database of song lyrics for popular songs
+    * I've yet to find one, but I think it could be scraped from a website like azlyrics.com 
+    * Since I would be pairing lyrics with a list of songs, it might be more efficient to 
+    scrape the data than go hunting for the songs that weren't in the database after the 2950FinalProject
+
+Questions for Reviewers:
+- Are there any time expensive operations I should be aware of in the analysis of music?
+- Are there any restrictions on python library usage for this project?
+- Is it okay that my GitHub repository is currently public?
